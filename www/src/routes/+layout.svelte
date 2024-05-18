@@ -6,9 +6,9 @@
     <!-- <nav class="absolute" style="z-index: 2;">
         <img src="src\lib\robinsons-800px-white.png" alt="robinsons logo">
     </nav> -->
-        <header style="" class="sticky inset-0 z-50 border-b-4 border-green-600 bg-white backdrop-blur-lg">
-            <nav class="mx-auto flex container px-6 transition-all duration-200 ease-in-out lg:px-12 py-6">
-                <div class="relative flex items-center">
+        <header style="" class="relative bg-white inset-0 z-50 border-b-8 border-green-500">
+            <nav class="mx-auto flex container  transition-all duration-200 ease-in-out  py-6">
+                <div class="flex items-center">
                     <a href="/">
                         <img  src="https://bigjax.s3.eu-west-2.amazonaws.com/rrr.png" loading="lazy" style="color:transparent;height:32px;" alt="Robinson's Road Ready Logo"></a>
                 </div>
@@ -53,7 +53,30 @@
                     </button>
                 </div> -->
             </nav>
+            
         </header>
+        <div class="relative text-white z-50" style="background-color: rgb(23, 102, 52)">
+            <ul class="flex uppercase font-bold text-sm container gap-12">
+                <li class="hover:bg-green-500 py-1 px-4 rounded-b-sm">
+                    <a href="/driving-lessons/manual">Manual</a>
+                </li>
+                <li class="hover:bg-green-500 py-1 px-4 rounded-b-sm">
+                    <a href="/driving-lessons/automatic">Automatic</a>
+                </li>
+                <li class="hover:bg-green-500 py-1 px-4 rounded-b-sm">
+                    <a href="/driving-lessons/intensive">Intensive</a>
+                </li>
+                <li class="hover:bg-green-500 py-1 px-4 rounded-b-sm">
+                    <a href="/franchise">Franchise</a>
+                </li>
+                <li class="hover:bg-green-500 py-1 px-4 rounded-b-sm">
+                    <a href="/about">About</a>
+                </li>
+                <li class="hover:bg-green-500 py-1 px-4 rounded-b-sm">
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     
         
     
@@ -91,7 +114,7 @@
                 </div>
         
                 <div>
-                    <p class="text-base font-bold tracking-wide text-gray-900">COMPANY IS ALSO AVAILABLE ON</p>
+                    <p class="text-base font-bold tracking-wide text-gray-900">Follow Us</p>
                     <div class="flex items-center gap-1 px-2">
                         <a href="/" class="w-full min-w-xl">
                             <img src="https://mcqmate.com/public/images/icons/playstore.svg" alt="Playstore Button"

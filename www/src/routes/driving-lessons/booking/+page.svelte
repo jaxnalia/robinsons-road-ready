@@ -13,8 +13,8 @@
 <header>
 	<div class="flex justify-center my-8">
 		<div class="flex flex-col container">
-			<h5 class="uppercase text-gray-500">Booking form</h5>
-			<h1 class="text-4xl font-extrabold uppercase text-gray-900">Book Driving Lessons</h1>
+			<h5 class="uppercase text-lg text-gray-500">Enquiry form</h5>
+			<h1 class="text-4xl md:text-6xl font-extrabold uppercase text-gray-900">Book Driving Lessons</h1>
 		</div>
 	</div>
 </header>
@@ -83,7 +83,7 @@
 		</div>
 		<div class="form-control w-full">
 			<label for="email" class="label">
-				<span class="label-text font-semibold">Email *</span>
+				<span class="label-text font-semibold">Email address *</span>
 			</label>
 			<input
 				type="email"
