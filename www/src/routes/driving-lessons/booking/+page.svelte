@@ -8,6 +8,8 @@
     <title>Enquiry Form / Robinson's Road Ready</title>
 </svelte:head>
 
+
+
 <header>
 	<div class="flex justify-center my-8">
 		<div class="flex flex-col container">
@@ -38,6 +40,7 @@
 		padding: 5px;
 	}
 </style>
+
 <div class="container mx-auto h-full w-full">
 	<form method="POST" class="flex flex-col md:w-3/6 items-center md:items-start justify-center bg-gray-100 p-8 mb-8">
 		<h2 class="text-xl font-medium mb-6">Could you tell us a little bit about yourself?</h2>
@@ -114,7 +117,16 @@
 			</label>
 		</div>
 		<div class="w-full">
-			<button class="btn btn-primary w-full" type="submit">Send My Booking!</button>
+			<button id="sendbtn" class="btn btn-primary w-full" type="submit"><span id="sendbtnText">Send Booking</span></button>
 		</div>
+		<script type="text/javascript">
+			const sendbtn = document.querySelector("#sendbtn");
+			const sendbtnText = document.querySelector("#sendbtnText");
+		
+			sendbtn.onclick = () => {
+				sendbtnText.innerHTML = "Sending, please wait...";
+				sendbtn.classList.add("active");
+			};
+		</script>
 	</form>
 </div>
