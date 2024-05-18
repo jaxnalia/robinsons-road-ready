@@ -16,7 +16,7 @@
     <div class="video-content space-y-2 z-10">
         <div class="container mx-auto mt-16 mb-16">
             <div class="text-center md:text-left">
-                <h1 class="font-bold uppercase text-5xl md:text-6xl">
+                <h1 class="font-extrabold text-5xl md:text-6xl">
                     <span class="block">Driving Lessons</span>
                     <span class="block pt-2">in Norwich</span>
                 </h1>
@@ -27,21 +27,21 @@
     
                     <!-- <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> -->
                     <a id="get-started-button"
-                            href="/enquiry"
-                           class="flex justify-center mb-6 md:mb-0 block shadow-lg uppercase text-3xl px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-500 hover:to-emerald-300 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
+                            href="/driving-lessons/booking"
+                           class="flex justify-center mb-6 md:mb-0 block shadow-lg text-3xl px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-500 hover:to-emerald-300 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
                            <style>
-                            #get-started-button #greenbutton {
+                            #get-started-button #arrowright {
                                 transition-duration: 200ms;
                             }
-                            #get-started-button:hover #greenbutton {
+                            #get-started-button:hover #arrowright {
                                 transform: translate(0.5rem, 0);
                                 transition-duration: 200ms;
                             }
                            </style>
-                           <div>get started</div>
+                           <div>Get Started</div>
                            <!-- <CalendarDays size="32" class="ml-2" /> -->
                            <!-- <ArrowBigRight id="greenbutton" size="36" class="ml-2" /> -->
-                           <ChevronRight id="greenbutton" size="36" class="ml-3" />
+                           <ChevronRight id="arrowright" size="36" class="ml-3" />
                            
                     </a>
                     <div class="flex font-semibold text-base text-5xl md:ml-6 mt-1 justify-center">

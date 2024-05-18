@@ -7,12 +7,12 @@
         <img src="src\lib\robinsons-800px-white.png" alt="robinsons logo">
     </nav> -->
         <header style="" class="sticky inset-0 z-50 border-b-4 border-green-600 bg-white backdrop-blur-lg">
-            <nav class="mx-auto flex container gap-8 px-6 transition-all duration-200 ease-in-out lg:px-12 py-8">
+            <nav class="mx-auto flex container px-6 transition-all duration-200 ease-in-out lg:px-12 py-6">
                 <div class="relative flex items-center">
                     <a href="/">
-                        <img  src="https://bigjax.s3.eu-west-2.amazonaws.com/rrr.png" loading="lazy" style="color:transparent;max-height:32px;" alt="ya"></a>
+                        <img  src="https://bigjax.s3.eu-west-2.amazonaws.com/rrr.png" loading="lazy" style="color:transparent;height:32px;" alt="Robinson's Road Ready Logo"></a>
                 </div>
-                <ul class="hidden uppercase font-bold text-gray-900 items-center justify-center gap-6 md:flex">
+                <!-- <ul class="hidden uppercase font-bold text-gray-900 items-center justify-center gap-6 md:flex">
                     
                     <li class="pt-1.5 text-sm transition-colors duration-100 ease-in-out hover:text-gray-400">
                         <a href="/intensive">Learn to Drive</a>
@@ -25,20 +25,33 @@
                     <li class="pt-1.5 text-sm transition-colors duration-100 ease-in-out hover:text-gray-400">
                         <a href="/">Meet the Instructors</a>
                     </li>
-                </ul>
-                <div class="flex-grow"></div>
-                <div class="hidden items-center justify-center gap-6 md:flex">
-                    <!-- <a href="#" class="font-dm text-sm font-medium text-slate-700">Sign in</a> -->
-                    <a href="/"
-                        class="flex rounded-md uppercase font-bold bg-gradient-to-br from-green-600 to-emerald-400 px-3 py-1.5 font-dm text-sm text-white shadow-md shadow-green-400/50 transition-transform duration-200 ease-in-out hover:scale-[1.03]">
-                        Book Online <ChevronRight />
+                </ul> -->
+                <div class=" flex-grow"></div>
+                <a href="tel:+447772562651" class="">
+                    <div class="flex justify-end text-md text-gray-900 md:text-xl font-semibold mt-1 mr-4 md:mr-8">
+                        <Phone size="18" class="mr-1 mt-1" /> 07772 562651
+                    </div>
+                </a>
+                <div id="bookonline" class="items-center justify-center gap-6 flex">
+                    <style>
+                        #bookonline #arrowright {
+                            transition-duration: 200ms;
+                        }
+                        #bookonline:hover #arrowright {
+                            transform: translate(0.2rem, 0);
+                            transition-duration: 200ms;
+                        }
+                       </style>
+                    <a href="/driving-lessons/booking"
+                        class="flex rounded-md text-center uppercase font-bold bg-gradient-to-br from-green-600 to-emerald-400 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
+                        Book Online <ChevronRight id="arrowright" size="20" class="ml-1" />
                     </a>
                 </div>
-                <div class="relative flex items-center justify-center md:hidden">
+                <!-- <div class="relative flex items-center justify-center md:hidden justify-end">
                     <button type="button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-6 w-auto text-slate-900"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg>
                     </button>
-                </div>
+                </div> -->
             </nav>
         </header>
     
