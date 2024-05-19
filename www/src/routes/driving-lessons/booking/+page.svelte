@@ -182,5 +182,7 @@
 			</script>
 		</form>
 	</div>
-	<div id="sidebar" class="shadow-lg md:ml-8 md:col-span-5 lg:col-span-4 mb-8 rounded-xl h-96 p-8"></div>
+	<div id="sidebar" class="shadow-lg md:ml-8 md:col-span-5 lg:col-span-4 mb-8 rounded-xl h-96 p-8">
+		{`{Customer reviews}`}
+	</div>
 </div>

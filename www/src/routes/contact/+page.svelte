@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Book Driving Lessons | Robinson's Road Ready</title>
+    <title>Contact Us | Robinson's Road Ready</title>
 </svelte:head>
 
 
@@ -183,8 +183,8 @@
 			</script>
 		</form>
 	</div>
-	<div id="sidebar" class="shadow-lg text-gray-900 md:ml-8 md:col-span-5 lg:col-span-4 mb-8 rounded-xl h-96 p-8">
-		<div>
+	<div id="sidebar" class="md:ml-8 md:col-span-5 lg:col-span-4 mb-8">
+		<div class="shadow-lg text-gray-900 rounded-xl h-96 p-8">
 			<h3 class="font-bold text-3xl mb-2">Bookings & enquiries</h3>
 			<div class="font-medium text-lg list-none">
 				<li>Phone: <a href="tel:+447772 562651" class="underline text-blue-600">07772 562651</a></li>
