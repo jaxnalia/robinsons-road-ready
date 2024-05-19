@@ -25,10 +25,9 @@
                 </p>
                 <div class="mx-auto mt-5 flex justify-center md:justify-start flex-col md:flex-row mt-8">
     
-                    <!-- <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> -->
                     <a id="get-started-button"
                             href="/driving-lessons/booking"
-                           class="flex justify-center mb-6 md:mb-0 block shadow-lg text-3xl px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-green-400 hover:bg-gradient-to-br hover:from-green-500 hover:to-emerald-300 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
+                           class="flex justify-center mb-6 md:mb-0 block shadow-lg text-3xl px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-emerald-300 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
                            <style>
                             #get-started-button #arrowright {
                                 transition-duration: 200ms;

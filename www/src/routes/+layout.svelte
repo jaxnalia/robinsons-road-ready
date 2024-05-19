@@ -8,7 +8,8 @@
     <!-- <nav class="absolute" style="z-index: 2;">
         <img src="src\lib\robinsons-800px-white.png" alt="robinsons logo">
     </nav> -->
-        <header style="" class="relative bg-white inset-0 z-50 border-b-8 bg-gray-50 border-green-500">
+    <div style="z-index: 100;" class="sticky inset-0">
+        <div class="bg-white z-50 border-b-8 bg-gray-50 border-green-500">
             <nav class="mx-auto flex container  transition-all duration-200 ease-in-out py-4">
                 <div class="flex items-center">
                     <a href="/">
@@ -46,7 +47,7 @@
                        </style>
                     <a href="/driving-lessons/booking"
                     style="width:142.5px;"
-                        class="flex rounded-md text-center uppercase font-bold bg-gradient-to-br from-green-600 to-emerald-400 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
+                        class="flex rounded-md text-center uppercase font-bold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-emerald-300 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
                         Book Online <ChevronRight id="arrowright" size="20" class="ml-1" />
                     </a>
                 </div>
@@ -57,9 +58,9 @@
                 </div> -->
             </nav>
             
-        </header>
+        </div>
         <div class="relative text-white z-50" style="background-color: rgb(23, 102, 52)">
-            <ul class="flex uppercase font-bold text-sm container gap-12">
+            <ul class="flex uppercase font-bold text-sm container gap-5 lg:gap-12">
                 <li aria-current={$page.url.pathname === '/driving-lessons/manual' ? 'page' : undefined} class="hover:bg-green-500 py-1 px-4 rounded-b-sm">
                     <a href="/driving-lessons/manual">Manual</a>
                 </li>
@@ -80,6 +81,8 @@
                 </li>
             </ul>
         </div>
+    </div>
+        
     
         
     <style>
@@ -91,38 +94,19 @@
         <slot></slot>
     
         <footer style="position:relative;" class="pt-4 border-t-2 bg-gray-50">
-            <div class="container grid gap-10 row-gap-6 mb-8 grid-cols-1 sm:grid-cols-3">
+            <div class="container flex gap-10 row-gap-6 mb-8 text-center justify-between md:text-left flex-col md:flex-row">
         
-                <!-- <div class="sm:col-span-2"> -->
-                    <a href="/" class="inline-flex items-center">
-                        <img src={logo} alt="logo" class="h-16">
-                        <!-- <span class="ml-2 text-xl font-bold tracking-wide text-gray-800">Company Name</span> -->
+               <div class="flex justify-center">
+                    <a href="/">
+                        <img src={logo} alt="logo" class="h-14">
                     </a>
-                    <!-- <div class="mt-6 lg:max-w-xl">
-                        <p class="text-sm text-gray-800">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi felis mi, faucibus dignissim lorem
-                            id, imperdiet interdum mauris. Vestibulum ultrices sed libero non porta. Vivamus malesuada urna eu
-                            nibh malesuada, non finibus massa laoreet. Nunc nisi velit, feugiat a semper quis, pulvinar id
-                            libero. Vivamus mi diam, consectetur non orci ut, tincidunt pretium justo. In vehicula porta
-                            molestie. Suspendisse potenti. 
-                            </p>
-                    </div> -->
-                <!-- </div> -->
-        
-                <!-- <div class="flex flex-col gap-2 text-sm">
-                    <p class="text-base font-bold tracking-wide text-gray-900">Popular Courses</p>
-                    <a href="/">UPSC - Union Public Service Commission</a>
-                    <a href="/">General Knowledge</a>
-                    <a href="/">MBA</a>
-                    <p class="text-base font-bold tracking-wide text-gray-900">Popular Topics</p>
-                    <a href="/">Human Resource Management</a>
-                    <a href="/">Operations Management</a>
-                    <a href="/">Marketing Management</a>
-                </div> -->
+               </div>
+                    
+
         
                 <div>
                     <p class="text-base font-bold tracking-wide text-gray-900">Follow Us</p>
-                    <div class="flex items-center gap-4">
+                    <div class="flex justify-center md:justify-start gap-4">
                         <a href="https://www.facebook.com/Robinsonsschoolofmotoring/" class="bg-blue-600 hover:bg-blue-400 h-10 w-10 flex justify-center rounded-lg">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 30 30"
                             style="fill:#FFFFFF;">
@@ -146,7 +130,7 @@
                 </div>
                 <div>
                     <p class="text-base font-bold tracking-wide text-gray-900">Contacts</p>
-                    <div class="flex text-clip overflow-hidden">
+                    <div class="flex text-clip overflow-hidden justify-center md:justify-start">
                         <!-- <p class="mr-1 text-gray-800">Email:</p> -->
                         <a href="mailto:ben@robinsonsroadready.com" title="send email" class="text-sm hover:underline">ben@robinsonsroadready.com</a>
                     </div>
@@ -155,8 +139,8 @@
             </div>
         
             <div class="container flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-                <p class="text-sm text-gray-600">© 2024 Robinson's Road Ready Limited. All rights reserved.</p>
-                <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+                <p class="text-sm text-gray-600 text-center md:text-left">© 2024 Robinson's Road Ready Limited. All rights reserved.</p>
+                <ul class="flex justify-center md:justify-start mb-3 lg:mb-0 space-y-0 space-x-5 flex-row">
                     <li>
                         <a href="/sitemap"
                             class="text-sm hover:underline text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Sitemap
