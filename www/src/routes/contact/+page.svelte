@@ -13,8 +13,8 @@
 <header>
 	<div class="flex justify-center my-8">
 		<div class="flex flex-col container">
-			<h5 class="uppercase text-lg text-gray-500">Lesson Enquiry form</h5>
-			<h1 class="text-4xl md:text-6xl font-extrabold uppercase text-green-600">Book Driving Lessons</h1>
+			<h5 class="uppercase text-lg text-gray-500">Contact form</h5>
+			<h1 class="text-4xl md:text-6xl font-extrabold uppercase text-green-600">Contact Us</h1>
 		</div>
 	</div>
 </header>
@@ -40,12 +40,12 @@
 		padding: 5px;
 	}
 </style>
-
 <div class="container grid grid-cols-1 md:grid-cols-10">
 	<div class="h-full w-full md:col-span-5 lg:col-span-6">
-		<h2 class="text-md font-medium mb-8 ">Simply send us your details below and we'll call you back to arrange your introductory lesson.</h2>
+		<h2 class="text-lg  mb-8 ">Do you have questions about learning to drive? Or, perhaps you’d like to find out more about becoming a driving instructor?</h2>
+		<h3 class="text-lg font-semibold mb-4 ">Send us a message below! We’ll get back in touch with you as soon as possible:</h3>
 		<form method="POST" class="flex flex-col  items-center md:items-start justify-center bg-gray-100 p-8 mb-8">
-			<h2 class="text-2xl font-medium mb-6">Could you tell us a little bit about yourself?</h2>
+			<h2 class="text-2xl font-semibold mb-6">Your details</h2>
 			<div class="text-sm mb-6">Items marked with * are required.</div>
 			<div class="form-control w-full">
 				<label for="firstname" class="label">
@@ -115,9 +115,10 @@
 					{/if}
 				</label>
 			</div>
+			<h2 class="text-2xl font-semibold mb-6 mt-6">Your message</h2>
 			<div class="form-control w-full">
 				<label for="lessontype" class="label">
-					<span class="label-text font-semibold">Type of lesson</span>
+					<span class="label-text font-semibold">Subject</span>
 				</label>
 				<select class="input rounded w-full {form?.errors?.lessontype ? 'input-error' : 'input-bordered'}"
 				name="lessontype"
@@ -134,7 +135,7 @@
 			</div>
 			<div class="form-control w-full">
 				<label for="availablilty" class="label">
-					<span class="label-text font-semibold">Availability for lessons</span>
+					<span class="label-text font-semibold">Message *</span>
 				</label>
 				<select class="input rounded w-full {form?.errors?.availablilty ? 'input-error' : 'input-bordered'}" 
 				name="availablilty"
@@ -169,7 +170,7 @@
 				</label>
 			</div>
 			<div class="w-full">
-				<button id="sendbtn" class="btn btn-primary w-full" type="submit"><span id="sendbtnText">Send Booking</span></button>
+				<button id="sendbtn" class="btn btn-primary w-full" type="submit"><span id="sendbtnText">Send Message</span></button>
 			</div>
 			<script type="text/javascript">
 				const sendbtn = document.querySelector("#sendbtn");
@@ -182,5 +183,17 @@
 			</script>
 		</form>
 	</div>
-	<div id="sidebar" class="shadow-lg md:ml-8 md:col-span-5 lg:col-span-4 mb-8 rounded-xl h-96 p-8"></div>
+	<div id="sidebar" class="shadow-lg text-gray-900 md:ml-8 md:col-span-5 lg:col-span-4 mb-8 rounded-xl h-96 p-8">
+		<div>
+			<h3 class="font-bold text-3xl mb-2">Bookings & enquiries</h3>
+			<div class="font-medium text-xl list-none">
+				<li>Phone: <a href="tel:+447772 562651" class="underline text-blue-600">07772 562651</a></li>
+				<li>Email: <a href="mailto:ben@robinsonsroadready.com" class="underline text-blue-600">ben@robinsonsroadready.com</a></li>
+				<li>Online: <a href="/driving-lessons/booking" class="underline text-blue-600">Book Online</a></li>
+			</div>
+		</div>
+		
+		
+	</div>
 </div>
+

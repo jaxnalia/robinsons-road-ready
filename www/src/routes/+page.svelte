@@ -4,10 +4,10 @@
 
 <svelte:head>
 
-<title>Robinson's Road Ready</title>
+<title>Driving Lessons in Norwich | Robinson's Road Ready</title>
 </svelte:head>
 
-<section style="margin-top: 0px;height: 70vh;" class="relative h-screen flex flex-col justify-center text-left text-white ">
+<section style="margin-top: 0px;height: 70vh;" class="relative overflow-clip h-screen flex flex-col justify-center text-left text-white ">
     <div class="video-docker absolute top-0 left-0 w-full h-full">
         <video class="min-w-full min-h-full absolute object-cover"
             src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
@@ -18,7 +18,7 @@
             <div class="text-center md:text-left">
                 <h1 class="font-extrabold text-5xl md:text-6xl">
                     <span class="block">Driving Lessons</span>
-                    <span class="block pt-2">in Norwich</span>
+                    <span class="block pt-2">in and around Norwich</span>
                 </h1>
                 <p class="mx-auto mt-3 text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl">
                     Comprehensive, engaging and accessible driving tuition.
