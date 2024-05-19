@@ -28,7 +28,7 @@
                     <!-- <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3"> -->
                     <a id="get-started-button"
                             href="/driving-lessons/booking"
-                           class="flex justify-center mb-6 md:mb-0 block shadow-lg text-3xl px-6 py-2 font-semibold bg-gradient-to-br from-green-500 to-green-400 hover:bg-gradient-to-br hover:from-green-500 hover:to-emerald-300 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
+                           class="flex justify-center mb-6 md:mb-0 block shadow-lg text-3xl px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-green-400 hover:bg-gradient-to-br hover:from-green-500 hover:to-emerald-300 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
                            <style>
                             #get-started-button #arrowright {
                                 transition-duration: 200ms;
@@ -44,9 +44,9 @@
                            <ChevronRight id="arrowright" size="36" class="ml-3" />
                            
                     </a>
-                    <div class="flex font-semibold text-base text-5xl md:ml-6 mt-1 justify-center">
+                    <a href="tel:+447772562651" class="flex font-semibold text-base text-5xl md:ml-6 mt-1 justify-center">
                         <Phone size="40" class="mt-1" /> <div class="ml-3 mt-1 text-4xl">07772 562651</div>
-                    </div>
+                    </a>
                     <!-- <button style="margin: 10px;"
                             class="block uppercase shadow-lg w-full px-8 py-3 text-base transition-colors duration-200 ease-in-out font-bold text-gray-200 hover:text-gray-100 bg-gray-100/10 hover:bg-gray-200/30 hover:backdrop-blur-xl backdrop-blur-lg rounded-md md:py-4 md:text-lg md:px-10">
                             Learn More

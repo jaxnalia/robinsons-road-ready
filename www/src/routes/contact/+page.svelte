@@ -186,7 +186,7 @@
 	<div id="sidebar" class="shadow-lg text-gray-900 md:ml-8 md:col-span-5 lg:col-span-4 mb-8 rounded-xl h-96 p-8">
 		<div>
 			<h3 class="font-bold text-3xl mb-2">Bookings & enquiries</h3>
-			<div class="font-medium text-xl list-none">
+			<div class="font-medium text-lg list-none">
 				<li>Phone: <a href="tel:+447772 562651" class="underline text-blue-600">07772 562651</a></li>
 				<li>Email: <a href="mailto:ben@robinsonsroadready.com" class="underline text-blue-600">ben@robinsonsroadready.com</a></li>
 				<li>Online: <a href="/driving-lessons/booking" class="underline text-blue-600">Book Online</a></li>
