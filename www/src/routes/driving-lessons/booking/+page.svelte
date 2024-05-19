@@ -153,7 +153,7 @@
 				</label>
 			</div>
 			
-			<div class="form-control w-full pb-2">
+			<!-- <div class="form-control w-full pb-2">
 				<label class="label cursor-pointer justify-start space-x-4">
 					<input
 						type="checkbox"
@@ -167,9 +167,9 @@
 						<div class="label-text-alt text-error">{form?.errors?.terms[0]}</div>
 					{/if}
 				</label>
-			</div>
+			</div> -->
 			<div class="w-full">
-				<button id="sendbtn" class="btn btn-primary w-full" type="submit"><span id="sendbtnText">Send Booking</span></button>
+				<button id="sendbtn" class="btn btn-primary w-full bg-green-500 hover:bg-green-400 active:bg-green-200 text-white text-xl rounded-lg py-4" type="submit"><span id="sendbtnText">Send Booking Enquiry</span></button>
 			</div>
 			<script type="text/javascript">
 				const sendbtn = document.querySelector("#sendbtn");
@@ -177,12 +177,16 @@
 			
 				sendbtn.onclick = () => {
 					sendbtnText.innerHTML = "Sending, please wait...";
-					sendbtn.classList.add("active");
+					sendbtn.classList.add("bg-green-400");
 				};
 			</script>
+			<p class="text-xs mt-4">We respect your privacy and will never pass your details on to any third party without your express permission. Read our <a href="/privacy" class="underline">privacy policy</a> for more details about how we handle your personal information.</p>
 		</form>
 	</div>
-	<div id="sidebar" class="shadow-lg md:ml-8 md:col-span-5 lg:col-span-4 mb-8 rounded-xl h-96 p-8">
-		{`{Customer reviews}`}
+	<div id="sidebar" class="md:ml-4 md:col-span-5 lg:col-span-4 mb-8">
+		<div class="relative border text-gray-900 rounded-xl h-96 p-8">
+			{`{Customer reviews}`}
+		</div>
+		
 	</div>
 </div>

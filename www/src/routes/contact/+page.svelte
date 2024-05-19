@@ -122,10 +122,13 @@
 				</label>
 				<select class="input rounded w-full {form?.errors?.lessontype ? 'input-error' : 'input-bordered'}"
 				name="lessontype"
-				placeholder="manual">
-					<option value="manual">Manual</option>
-					<option value="automatic">Automatic</option>
-					<option value="intensive">Intensive</option>
+				placeholder="none">
+					<option value="none">-Please choose an option-</option>
+					<option value="learning-to-drive">Learning to drive</option>
+					<option value="advanced-refresher">Advanced & Refresher Lessons</option>
+					<option value="joining-franchise">Joining the Franchise</option>
+					<option value="di-training">Driving Instructor Training</option>
+					<option value="other">Other</option>
 				</select>
 				<label for="lessontype" class="label">
 					{#if form?.errors?.lessontype}
@@ -134,27 +137,18 @@
 				</label>
 			</div>
 			<div class="form-control w-full">
-				<label for="availablilty" class="label">
+				<label for="message" class="label">
 					<span class="label-text font-semibold">Message *</span>
 				</label>
-				<select class="input rounded w-full {form?.errors?.availablilty ? 'input-error' : 'input-bordered'}" 
-				name="availablilty"
-				placeholder="">
-					<option value="anytime">Anytime</option>
-					<option value="anyday">Anyday</option>
-					<option value="daytime">Daytime only</option>
-					<option value="evenings">Evenings only</option>
-					<option value="weekdays">Weekdays only</option>
-					<option value="weekends">Weekends only</option>
-				</select>
-				<label for="availablilty" class="label">
-					{#if form?.errors?.availablilty}
-						<div class="label-text-alt text-error">{form?.errors?.availablilty[0]}</div>
+				<textarea style="height: auto; min-height:108px" class="input rounded w-full h-auto {form?.errors?.message ? 'input-error' : 'input-bordered'}" rows="4" name="message" placeholder="Enter your Message"></textarea>
+				<label for="message" class="label">
+					{#if form?.errors?.message}
+						<div class="label-text-alt text-error">{form?.errors?.message[0]}</div>
 					{/if}
 				</label>
 			</div>
 			
-			<div class="form-control w-full pb-2">
+			<!-- <div class="form-control w-full pb-2">
 				<label class="label cursor-pointer justify-start space-x-4">
 					<input
 						type="checkbox"
@@ -168,9 +162,10 @@
 						<div class="label-text-alt text-error">{form?.errors?.terms[0]}</div>
 					{/if}
 				</label>
-			</div>
+			</div> -->
 			<div class="w-full">
-				<button id="sendbtn" class="btn btn-primary w-full" type="submit"><span id="sendbtnText">Send Message</span></button>
+				
+				<button id="sendbtn" class="btn btn-primary w-full bg-green-500 hover:bg-green-400 active:bg-green-200 text-white text-xl rounded-lg py-4" type="submit"><span id="sendbtnText">Send Message</span></button>
 			</div>
 			<script type="text/javascript">
 				const sendbtn = document.querySelector("#sendbtn");
@@ -178,21 +173,31 @@
 			
 				sendbtn.onclick = () => {
 					sendbtnText.innerHTML = "Sending, please wait...";
-					sendbtn.classList.add("active");
+					sendbtn.classList.add("bg-green-400");
 				};
 			</script>
+			<p class="text-xs mt-4">We respect your privacy and will never pass your details on to any third party without your express permission. Read our <a href="/privacy" class="underline">privacy policy</a> for more details about how we handle your personal information.</p>
 		</form>
 	</div>
-	<div id="sidebar" class="md:ml-8 md:col-span-5 lg:col-span-4 mb-8">
-		<div class="shadow-lg text-gray-900 rounded-xl h-96 p-8">
-			<h3 class="font-bold text-3xl mb-2">Bookings & enquiries</h3>
-			<div class="font-medium text-lg list-none">
-				<li>Phone: <a href="tel:+447772 562651" class="underline text-blue-600">07772 562651</a></li>
-				<li>Email: <a href="mailto:ben@robinsonsroadready.com" class="underline text-blue-600">ben@robinsonsroadready.com</a></li>
-				<li>Online: <a href="/driving-lessons/booking" class="underline text-blue-600">Book Online</a></li>
+	<div id="sidebar" class="md:ml-4 md:col-span-5 lg:col-span-4 mb-8">
+		<div class="relative bg-gradient-to-br from-green-600 to-emerald-400 text-gray-50 rounded-xl h-96 p-8 mb-4">
+			<div class="mb-8">
+				<h3 class="font-bold text-3xl mb-4">Bookings & enquiries</h3>
+				<div class="font-medium text-lg list-none">
+					<li>Phone: <a href="tel:+447772 562651" class="underline hover:text-blue-600">07772 562651</a></li>
+					<li>Email: <a href="mailto:ben@robinsonsroadready.com" class="underline hover:text-blue-600">ben@robinsonsroadready.com</a></li>
+					<li>Online: <a href="/driving-lessons/booking" class="underline hover:text-blue-600">Book Online</a></li>
+				</div>
 			</div>
+			<div class="">
+				<h3 class="font-bold text-3xl mb-2">{`{Location}`}</h3>
+
+			</div>
+
 		</div>
-		
+		<div class="relative border text-gray-900 rounded-xl h-96 p-8">
+			{`{Customer reviews}`}
+		</div>
 		
 	</div>
 </div>
