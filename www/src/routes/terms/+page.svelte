@@ -1,9 +1,7 @@
 <div class="container">
     <div class="prose text-lg">
-
         <br>
         <br>
-    
     <h1>Terms & Conditions</h1>
     <br>
     <h3>Lesson Payments:</h3> 

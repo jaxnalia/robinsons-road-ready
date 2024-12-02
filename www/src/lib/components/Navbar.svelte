@@ -81,21 +81,21 @@
                         Manual
                     </li>
                 </a>
-                <a href="/driving-lessons/automatic">
+                <!-- <a href="/driving-lessons/automatic">
                     <li aria-current={$page.url.pathname === '/driving-lessons/automatic' ? 'page' : undefined} class="hover:bg-green-500 py-2 px-4">
                         Automatic
                     </li>
-                </a>
+                </a> -->
                 <a href="/driving-lessons/intensive">
                     <li aria-current={$page.url.pathname === '/driving-lessons/intensive' ? 'page' : undefined} class="hover:bg-green-500 py-2 px-4">
                         Intensive
                     </li>
                 </a>
-                <a href="/franchise">
+                <!-- <a href="/franchise">
                     <li aria-current={$page.url.pathname === '/franchise' ? 'page' : undefined} class="hover:bg-green-500 py-2 px-4">
                         Franchise
                     </li>
-                </a>
+                </a> -->
                 <a href="/about">
                     <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined} class="hover:bg-green-500 py-2 px-4">
                         About
@@ -117,21 +117,21 @@
                     Manual
                 </li>
             </a>
-            <a href="/driving-lessons/automatic">
+            <!-- <a href="/driving-lessons/automatic">
                 <li aria-current={$page.url.pathname === '/driving-lessons/automatic' ? 'page' : undefined} class="hover:bg-green-500 py-1 px-4">
                     Automatic
                 </li>
-            </a>
+            </a> -->
             <a href="/driving-lessons/intensive">
                 <li aria-current={$page.url.pathname === '/driving-lessons/intensive' ? 'page' : undefined} class="hover:bg-green-500 py-1 px-4">
                     Intensive
                 </li>
             </a>
-            <a href="/franchise">
+            <!-- <a href="/franchise">
                 <li aria-current={$page.url.pathname === '/franchise' ? 'page' : undefined} class="hover:bg-green-500 py-1 px-4">
                     Franchise
                 </li>
-            </a>
+            </a> -->
             <a href="/about">
                 <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined} class="hover:bg-green-500 py-1 px-4">
                     About
