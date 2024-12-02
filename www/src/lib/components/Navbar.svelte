@@ -46,7 +46,7 @@
         class="bg-green-500 p-2 w-full md:hidden text-white"
         on:click={toggleMenu} aria-label="Toggle menu">
         <svg
-        class="h-10 w-10"
+        class="h-8 w-8"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -55,14 +55,14 @@
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
-          stroke-width="2"
+          stroke-width="3"
           d="M6 18L18 6M6 6l12 12"
         />
         {:else}
             <path
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke-width="2"
+            stroke-width="3"
             d="M4 6h16M4 12h16M4 18h16"
             />
         {/if}
