@@ -9,34 +9,37 @@
 
 <div style="z-index: 100;" class="inset-0">
     <div class="bg-white z-50 md:border-b-8 bg-gray-50 border-green-500">
-        <nav class="mx-auto flex container  transition-all duration-200 ease-in-out py-4">
+        <nav class="mx-auto flex max-md:flex-col max-md:gap-2 max-md:items-center container transition-all duration-200 ease-in-out py-4">
             <div class="flex items-center">
                 <a href="/">
                     <img  src={logo} loading="lazy" style="color:transparent;height:60px;" alt="Robinson's Road Ready Logo"></a>
             </div>
 
             <div class=" flex-grow"></div>
-            <div class="mr-4 sm:mr-8">
-                <a href="tel:+447772562651" class="flex justify-end text-sm sm:text-xl text-green-600 font-semibold mt-5 sm:mt-4">
-                    <Phone class="mr-1 mt-0 sm:mt-0.5 w-3 sm:w-4" /> 07772 562651
-                </a>
+            <div class="flex">
+                <div class="mr-4 sm:mr-8">
+                    <a href="tel:+447772562651" class="flex justify-end text-xl text-green-600 font-semibold mt-0.5 md:mt-4">
+                        <Phone class="mr-1 mt-0.5 w-4" /> 07772 562651
+                    </a>
+                </div>
+                <div id="bookonline" class="items-center justify-center gap-6 flex">
+                    <style>
+                        #bookonline #arrowright {
+                            transition-duration: 200ms;
+                        }
+                        #bookonline:hover #arrowright {
+                            transform: translate(0.2rem, 0);
+                            transition-duration: 200ms;
+                        }
+                       </style>
+                    <a href="/driving-lessons/booking"
+                    style="width:142.5px;"
+                        class="flex rounded-md text-center uppercase font-bold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-emerald-300 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
+                        Book Online <ChevronRight id="arrowright" size="20" class="ml-1" />
+                    </a>
+                </div>
             </div>
-            <div id="bookonline" class="items-center justify-center gap-6 flex">
-                <style>
-                    #bookonline #arrowright {
-                        transition-duration: 200ms;
-                    }
-                    #bookonline:hover #arrowright {
-                        transform: translate(0.2rem, 0);
-                        transition-duration: 200ms;
-                    }
-                   </style>
-                <a href="/driving-lessons/booking"
-                style="width:142.5px;"
-                    class="flex rounded-md text-center uppercase font-bold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-emerald-300 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
-                    Book Online <ChevronRight id="arrowright" size="20" class="ml-1" />
-                </a>
-            </div>
+            
 
         </nav>
         
