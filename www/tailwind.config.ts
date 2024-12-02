@@ -60,6 +60,10 @@ const config: Config = {
 			}
 		}
 	},
+	plugins: [
+		// @ts-ignore
+		require('@tailwindcss/typography'),
+	],
 };
 
 export default config;

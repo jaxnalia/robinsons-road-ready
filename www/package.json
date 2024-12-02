@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tailwindcss/typography": "^0.5.15",
 		"bits-ui": "^0.21.7",
 		"clsx": "^2.1.1",
 		"formsnap": "^1.0.0",
