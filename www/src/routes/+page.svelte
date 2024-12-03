@@ -14,7 +14,7 @@
             src={audiBack}
             alt="audi-robinsons">
     </div>
-    <div class="video-content space-y-2 z-10">
+    <div class="space-y-2 z-10">
         <div class="container mx-auto mt-16 mb-16">
             <div class="text-center md:text-left">
                 <h1 class="font-extrabold text-5xl md:text-6xl">

@@ -1,4 +1,6 @@
 <script>
+    import { scale } from 'svelte/transition';
+
 // @ts-nocheck
 
 	export let form;
@@ -183,10 +185,27 @@
 			<p class="text-xs mt-4">We respect your privacy and will never pass your details on to any third party without your express permission. Read our <a href="/privacy" class="underline">privacy policy</a> for more details about how we handle your personal information.</p>
 		</form>
 	</div>
-	<div id="sidebar" class="md:ml-4 md:col-span-5 lg:col-span-4 mb-8">
-		<div class="relative border text-gray-900 rounded-xl h-96 p-8">
+	<div id="sidebar" class="flex flex-col gap-4 md:ml-4 md:col-span-5 lg:col-span-4 mb-8">
+		<div class="relative border text-gray-900 rounded-xl h-72 p-8">
 			{`{Customer reviews}`}
 		</div>
-		
+		<a href="https://apps.apple.com/gb/app/total-drive/id1446269375#?platform=iphone/">
+			<div class="totaldriveAd border text-gray-900 rounded-xl p-0">
+				
+				
+					<!-- <img class="invisible" src="https://www.totaldrive.app/info/banners/square-driving-app.png" alt="totaldrive">
+				 -->
+			</div>
+		</a>
+		<style>
+			.totaldriveAd {
+				background-image: URL('https://www.totaldrive.app/info/banners/square-driving-app.png');
+				background-position: center;
+				background-size: contain;
+				background-origin: border-box;
+				background-repeat: no-repeat;
+				aspect-ratio: 1 / 1;
+			}
+		</style>
 	</div>
 </div>
