@@ -21,11 +21,13 @@
                     <span class="block">Driving Lessons</span>
                     <span class="block pt-2">in and around Norwich</span>
                 </h1>
-                <p class="mx-auto mt-3 text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl">
+                <!-- <p class="mx-auto mt-3 text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl">
                     Comprehensive, engaging and accessible driving tuition.
-                </p>
-                <div class="mx-auto mt-5 flex justify-center md:justify-start flex-col md:flex-row mt-8">
-    
+                </p> -->
+                <div class="mx-auto mt-5 flex justify-center md:justify-start gap-6 flex-col md:flex-row mt-8">
+                    <a href="tel:+447772562651" class="flex font-semibold text-base text-5xl mb-1 justify-center">
+                        <Phone size="40" class="mt-1.5" /> <div class="ml-3 mt-1.5 text-4xl font-bold">07772 562651</div>
+                    </a>
                     <a id="get-started-button"
                             href="/driving-lessons/booking"
                            class="flex justify-center mb-6 md:mb-0 block shadow-lg text-3xl px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-emerald-300 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
@@ -38,15 +40,13 @@
                                 transition-duration: 200ms;
                             }
                            </style>
-                           <div>Get Started</div>
+                           <div class="font-bold uppercase">Book Online</div>
                            <!-- <CalendarDays size="32" class="ml-2" /> -->
                            <!-- <ArrowBigRight id="greenbutton" size="36" class="ml-2" /> -->
                            <ChevronRight id="arrowright" size="36" class="ml-3" />
                            
                     </a>
-                    <a href="tel:+447772562651" class="flex font-semibold text-base text-5xl md:ml-6 mt-1 justify-center">
-                        <Phone size="40" class="mt-1" /> <div class="ml-3 mt-1 text-4xl">07772 562651</div>
-                    </a>
+                    
                     <!-- <button style="margin: 10px;"
                             class="block uppercase shadow-lg w-full px-8 py-3 text-base transition-colors duration-200 ease-in-out font-bold text-gray-200 hover:text-gray-100 bg-gray-100/10 hover:bg-gray-200/30 hover:backdrop-blur-xl backdrop-blur-lg rounded-md md:py-4 md:text-lg md:px-10">
                             Learn More
