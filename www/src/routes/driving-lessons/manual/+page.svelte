@@ -37,10 +37,11 @@
 	</div>
 	<div class="text-center p-4 text-white" style="background-color: rgb(23, 102, 52)">
 		<h2 class="font-semibold text-2xl uppercase">Pay As You Go</h2>
-		<p class="font-semibold">Standard Driving Lessons - 1.5 hours: £63 (£42 ph)</p>
+		<p class="font-semibold">Standard Driving Lessons - 1.5 hours: £81 (£54 ph)</p>
 		<p class="font-semibold text-sm mb-6 italic">Pay for 2 lessons at the start of your course so you always have 1 lesson in credit.</p>
-		<h2 class="font-semibold text-2xl uppercase">Block Booking Deal</h2>
-		<p class="font-semibold mb-6">10 hours of driving lessons: £420 (£42 ph)</p>
+		<h2 class="font-semibold text-2xl uppercase">Block Booking Discount</h2>
+		<p class="font-semibold">10 hours of driving lessons: £450 (£45 ph)</p>
+		<p class="font-semibold text-sm mb-6 italic">Save £90 off the PAYG rate!</p>
 		<!-- <h2 class="font-bold text-2xl uppercase">New Pupil Introductory Offer</h2>
 		<p class="font-semibold">Pay for 2 lessons at the start of your course so you always have 1 lesson in credit.</p> -->
 	</div>
