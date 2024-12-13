@@ -176,7 +176,7 @@
 					sendbtn.classList.add("bg-green-400");
 				};
 			</script>
-			<p class="text-xs mt-4">We respect your privacy and will never pass your details on to any third party without your express permission. Read our <a href="/privacy" class="underline">privacy policy</a> for more details about how we handle your personal information.</p>
+			<p class="text-xs mt-4">Your privacy is important to us, and we will not share your information with any third party without your explicit consent. For more information on how we manage your personal data, please review our <a href="/privacy" class="underline">privacy policy</a>.</p>
 		</form>
 	</div>
 	<div id="sidebar" class="md:ml-4 md:col-span-5 lg:col-span-4 mb-8">
