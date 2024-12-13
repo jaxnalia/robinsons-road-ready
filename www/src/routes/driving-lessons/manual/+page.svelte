@@ -18,8 +18,8 @@
 		<div class="flex flex-col container">
 			<!-- <div class="h-24"></div> -->
 			<!-- <h5 class="uppercase text-lg text-gray-500">about</h5> -->
-			<h1 class="text-4xl md:text-6xl text-center font-extrabold uppercase">
-				Weekly driving lessons
+			<h1 class="text-4xl md:text-6xl text-center font-bold">
+				Weekly Driving Lessons
 			</h1>
 		</div>
 	</div>
@@ -30,8 +30,8 @@
 		<img class="h-14" src={brandingWhite} alt="Robinson's Road Ready">
 		
 	</div> -->
-		<h1 class="container uppercase text-4xl p-8 font-bold">
-			Manual Driving Lesson Rates
+		<h1 class="container text-4xl p-8 font-semibold">
+			Manual drive lesson rates
 		</h1>
 		
 	</div>

@@ -18,7 +18,7 @@
             <div class=" flex-grow"></div>
             <div class="flex">
                 <div class="mr-4 items-center justify-center">
-                    <a href="tel:+447772562651" class="flex rounded-md text-center uppercase font-bold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-emerald-300 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
+                    <a href="tel:+447772562651" class="flex rounded-md text-center uppercase font-semibold bg-gradient-to-br from-green-600 to-green-600 hover:bg-gradient-to-br hover:from-green-600 hover:to-green-400 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
                         <Phone size="20" class="mr-1" /> 07772 562651
                     </a>
                 </div>
@@ -34,7 +34,7 @@
                        </style>
                     <a href="/driving-lessons/booking"
                     style="width:142.5px;"
-                        class="flex rounded-md text-center uppercase font-bold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-emerald-300 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
+                        class="flex rounded-md text-center uppercase font-semibold bg-gradient-to-br from-green-600 to-green-600 hover:bg-gradient-to-br hover:from-green-600 hover:to-green-400 px-3 py-1.5 font-dm text-sm text-white transition-transform duration-200 ease-in-out">
                         Book Online <ChevronRight id="arrowright" size="20" class="ml-1" />
                     </a>
                 </div>

@@ -16,21 +16,25 @@
     </div>
     <div class="space-y-2 z-10">
         <div class="container mx-auto mt-16 mb-16">
-            <div class="text-center md:text-left">
-                <h1 class="font-extrabold text-5xl md:text-6xl">
-                    <span class="block">Driving Lessons</span>
-                    <span class="block pt-2">in and around Norwich</span>
+            <div class="text-center">
+                <h1 class="font-bold text-4xl md:text-6xl">
+                    <span class="block">Welcome to<br> Robinson's Road Ready</span>
+                    <!-- <span class="block pt-2"></span> -->
                 </h1>
-                <!-- <p class="mx-auto mt-3 text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl">
-                    Comprehensive, engaging and accessible driving tuition.
-                </p> -->
-                <div class="mx-auto mt-5 flex justify-center md:justify-start gap-6 flex-col md:flex-row mt-8">
-                    <a href="tel:+447772562651" class="flex font-semibold text-base text-5xl mb-1 justify-center">
-                        <Phone size="40" class="mt-1.5" /> <div class="ml-3 mt-1.5 text-4xl font-bold">07772 562651</div>
+                <p class="mx-auto mt-2 text-base sm:text-lg">
+                    Driving school based in Norwich & South Norfolk
+                </p>
+                <h2 class="font-bold text-4xl">
+                    <!-- <span class="block text-green-800 font-bold uppercase">Are you Road Ready?</span> -->
+                    <!-- <span class="block pt-2"></span> -->
+                </h2>
+                <div class="mx-auto mt-5 flex justify-center gap-2 md:gap-6 flex-row mt-8 md:text-2xl leading-loose">
+                    <a href="tel:+447772562651" class="flex justify-center md:mb-0 block shadow-lg px-3 md:px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-green-600 hover:bg-gradient-to-br hover:from-green-600 hover:to-green-400 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
+                        <Phone size="30" class="" /> <div class="ml-3 font-semibold">Call Now</div>
                     </a>
                     <a id="get-started-button"
                             href="/driving-lessons/booking"
-                           class="flex justify-center mb-6 md:mb-0 block shadow-lg text-3xl px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-emerald-400 hover:bg-gradient-to-br hover:from-green-600 hover:to-emerald-300 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
+                           class="flex justify-center md:mb-0 block shadow-lg px-3 md:px-6 py-2 font-semibold bg-gradient-to-br from-green-600 to-green-600 hover:bg-gradient-to-br hover:from-green-600 hover:to-green-400 hover:backdrop-blur-xl backdrop-blur-lg rounded-md">
                            <style>
                             #get-started-button #arrowright {
                                 transition-duration: 200ms;
@@ -40,10 +44,10 @@
                                 transition-duration: 200ms;
                             }
                            </style>
-                           <div class="font-bold uppercase">Book Online</div>
+                           <div class="">Book Online</div>
                            <!-- <CalendarDays size="32" class="ml-2" /> -->
                            <!-- <ArrowBigRight id="greenbutton" size="36" class="ml-2" /> -->
-                           <ChevronRight id="arrowright" size="36" class="ml-3" />
+                           <ChevronRight id="arrowright" size="30" class="ml-3" />
                            
                     </a>
                     
